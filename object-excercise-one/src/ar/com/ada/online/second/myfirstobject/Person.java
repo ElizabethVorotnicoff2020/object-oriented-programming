@@ -1,20 +1,17 @@
 package ar.com.ada.online.second.myfirstobject;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 public class Person {
     String name;
-    String lastName;
+    String lastname;
     Integer age;
 
-    void singAttributeValues() {
-        System.out.println("Estoy: " + sing);
+    void sing(){
+        System.out.println("Estoy Cantando");
     }
-    void talkAttributeValues() {
-        System.out.println("Estoy: " + talk);
+    void talk(){
+        System.out.println("Estoy Hablando");
     }
-    void playAttributeValues() {
-        System.out.println("Estoy: " + play);
+    void play(){
+        System.out.println("Estoy Jugando");
     }
-
 }
